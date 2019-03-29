@@ -1,0 +1,50 @@
+.MenuTabs ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.MenuTabs ul li{
+  margin: 10px;
+
+}
+
+/* ----------------Menu Tabs----------------- */
+.Menu{
+  padding-top: 20px;
+  background-color: #A65D0F;
+  width: 100vw;
+}
+.Menu ul{
+  margin: 0px 100px
+}
+.MenuTabs ul li button{
+width: 10em;
+height: 3em;
+border-radius: 15px;
+border: none;
+}
+.MenuBox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.MenuItem{
+  box-shadow: 0 5px 10px 5px;
+  border-radius: 2px;
+  height: 30em;
+  width: 20em;
+  margin: 50px;
+  padding: 5px;
+  background-color: white;
+
+}
+.MenuItemPicture{
+  background-color: gold;
+  height: 60%;
+  width: 100%
+}
+.MenuItemName{
+  color: rgb(63, 148, 52)
+}

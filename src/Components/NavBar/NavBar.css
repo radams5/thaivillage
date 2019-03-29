@@ -1,0 +1,39 @@
+.NavBar{
+  height: 75px;
+  width: 100%;
+  background-color: rgb(41, 11, 7);
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.NavBarLogoDiv{
+  margin-left: 1em;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif
+}
+.LampLogoImage{
+  height: 95px;
+  width: px;
+  border-radius: 50%
+}
+.NavBarMenuDiv{
+  width: 50vw;
+}
+.NavBarMenuDiv ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;  
+}
+.NavBarMenuDiv ul li{
+  margin: 15px;  
+  color: white;
+}
+.NavBarLinks{
+  text-decoration: none;
+  color: white;
+}
+
