@@ -29,7 +29,7 @@
   list-style-type: none;  
 }
 .NavBarMenuDiv ul li{
-  margin: 15px;  
+  margin: 0 15px;  
   color: white;
 }
 .NavBarLinks{

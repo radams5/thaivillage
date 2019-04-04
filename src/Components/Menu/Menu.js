@@ -32,6 +32,10 @@ class Menu extends Component {
   render() {
     
     const ConditionalComponent = this.state.menuTab
+    // const buttonArray = [Appetizers, Salads, Soups, Noodles, Entrees, Curry, Desserts, Drinks, SideOrders, Specials]
+    // const buttons = buttonArray.map( button => {
+    // return <li onClick={() =>this.HandleUpdateState(button)}><button>{button.}</button></li>  
+    // })
     return (
       <div className="Menu">
 
@@ -39,18 +43,19 @@ class Menu extends Component {
 
         <div className='MenuTabs'>
           <ul>
-            <li onClick={() =>this.HandleUpdateState(Appetizers)}><button>Appetizers</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Salads)}><button>Salads</button></li>       
-            <li onClick={() =>this.HandleUpdateState(Soups)}><button>Soups</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Noodles)}><button>Noodles</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Entrees)}><button>Entrées</button></li>    
+            {/* {buttons} */}
+            <li onClick={() =>this.HandleUpdateState(Appetizers)}><button  className='MenuButton'>Appetizers</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Salads)}><button  className='MenuButton'>Salads</button></li>       
+            <li onClick={() =>this.HandleUpdateState(Soups)}><button  className='MenuButton'>Soups</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Noodles)}><button  className='MenuButton'>Noodles</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Entrees)}><button  className='MenuButton'>Entrées</button></li>    
           </ul>  
            <ul>      
-            <li onClick={() =>this.HandleUpdateState(Curry)}><button>Curry</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Desserts)}><button>Desserts</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Drinks)}><button>Drinks</button></li>            
-            <li onClick={() =>this.HandleUpdateState(SideOrders)}><button>Side Orders</button></li>            
-            <li onClick={() =>this.HandleUpdateState(Specials)}><button>House Specials</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Curry)}><button  className='MenuButton'>Curry</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Desserts)}><button  className='MenuButton'>Desserts</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Drinks)}><button  className='MenuButton'>Drinks</button></li>            
+            <li onClick={() =>this.HandleUpdateState(SideOrders)}><button  className='MenuButton'>Side Orders</button></li>            
+            <li onClick={() =>this.HandleUpdateState(Specials)}><button className='MenuButton'>House Specials</button></li>            
           </ul>
         </div>
 
